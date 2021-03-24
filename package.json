@@ -4,12 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "serve": "nuxt & cd server && node index",
-    "start": "nuxt & cd server && node index",
-    "nuxt:build": "nuxt build",
-    "nuxt:start": "nuxt start",
-    "generate": "nuxt generate",
-    "server": "cd server && node index"
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.1",
